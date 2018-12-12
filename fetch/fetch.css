@@ -1,0 +1,19 @@
+table.main {
+  width: 100%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 5px;
+  border-color: #ffcc00;
+  border-style: solid;
+  color: #000000;
+
+}
+table.main td, table.main th {
+  border-width: 5px;
+  border-color: #ffcc00;
+  border-style: solid;
+  padding: 3px;
+}
+table.main thead {
+  background-color: #ffcc00;
+}
