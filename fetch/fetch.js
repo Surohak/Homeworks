@@ -2,7 +2,7 @@ fetch('https://ghibliapi.herokuapp.com/locations', {
     method: 'get'
 })
     .then(function (response) {
-        return response.json()
+        return response.json()//for experiance
             .then(
                 function (data) {
                     let k = '<tbody';
