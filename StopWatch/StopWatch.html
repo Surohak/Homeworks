@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>StopWatch</title>
+	<link href="StopWatch.css" rel="stylesheet">
+</head>
+<body>
+	<div class="main">
+		<h1 class="title">StopWatch</h1>
+		<h1  class="time">00:00:00:00</h1>
+		<input type="button" value="Start" class="myButton" id="startBin" onclick="start()">
+		<input type="button" value="Pause" class="myButton" onclick="pause()">
+		<input type="button" value="Stop" class="myButton" onclick="stop()">
+		<input type="button" value="Restart" class="myButton" onclick="restart()">
+		<input type="button" value="Lap" class="myButton" id="lapClick" onclick="lap()"><br>
+			<ol id="laps"></ol><br>
+			<input type="button" value="ClearLaps" class="myButton" onclick="clearLaps()" id="clear" style="display: none">	
+  	</div>
+	<script src="script.js"></script>
+</body>
+</html>
